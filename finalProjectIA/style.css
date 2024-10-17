@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    background-color: #b8cfca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30em;
+    height: 22em;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -20px 20px 5px rgba(70, 70, 70, 0.568);
+}
+
+.container_login {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    height: 20em;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px #6d6d6d85;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    /* display: block; */
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    border: solid 1px #629584;
+    background-color: #dadada9f;
+    color: #000000;
+} 
+
+button {
+    width: 50%;
+    /* margin: 0 auto; */
+    padding: 6px;
+    font-size: 16px;
+    background-color: #387478;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #629584;
+    color: #000000;
+}
+
+.container_operaciones {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 20em;
+    position: absolute;
+    top: 44%;
+}
+
+#operaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#operaciones > button {
+    width: 70%;
+    margin-bottom: 8px;
+}
+
+.container_operaciones > button {
+    width: 60%;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
